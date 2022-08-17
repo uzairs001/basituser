@@ -1,4 +1,4 @@
-# aug/17/2022 14:22:27 by RouterOS 6.49.2
+# aug/17/2022 15:49:18 by RouterOS 6.49.2
 # software id = TI09-7WK3
 #
 #
@@ -311,7 +311,7 @@ add comment=.. customer=admin disabled=yes first-name="NAN  g 1888" ipv6-dns=\
     :: last-name=. location="Feroze Hub" password=123456 phone=. \
     shared-users=1 username=80:79:5D:46:95:B9 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Danish mobile" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Danish mobile" ipv6-dns=:: \
     password=123456 shared-users=1 username=72:E7:80:EF:BA:9D \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=4520139108041 customer=admin disabled=no first-name=\
