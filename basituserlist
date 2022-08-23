@@ -1,4 +1,4 @@
-# aug/22/2022 09:52:07 by RouterOS 6.49.2
+# aug/23/2022 11:56:35 by RouterOS 6.49.2
 # software id = TI09-7WK3
 #
 #
@@ -2147,10 +2147,6 @@ add customer=admin disabled=no first-name="Rayaz Ali 60386" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=1 username=\
     80:77:A4:81:3F:8D wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=4250162796529 customer=admin disabled=no first-name=\
-    "Abdullah 64017" ipv6-dns=:: location="Feroz hub " password=123456 \
-    shared-users=1 username=CC:A3:BD:CB:55:54 wireless-enc-algo=none \
-    wireless-enc-key="" wireless-psk=""
 add comment=4520611248309 customer=admin disabled=no first-name=\
     "Makhan Ali 61882" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=C4:E3:9F:FD:16:C9 wireless-enc-algo=none \
@@ -2204,3 +2200,6 @@ add customer=admin disabled=no first-name="Khazar amian 64242" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=1 username=\
     9C:5F:5A:4D:5E:73 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
+add customer=admin disabled=no first-name="Abdullah 64017" ipv6-dns=:: \
+    password=123456 shared-users=1 username=E8:C2:DD:5D:3E:7B \
+    wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
