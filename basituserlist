@@ -1,4 +1,4 @@
-# aug/25/2022 10:29:20 by RouterOS 6.49.2
+# aug/29/2022 12:26:26 by RouterOS 6.49.2
 # software id = TI09-7WK3
 #
 #
@@ -146,6 +146,8 @@ add address=10.0.0.207 disabled=yes mac-address=80:2A:A8:E2:A9:9E server=\
     server1 to-address=10.0.0.151 type=bypassed
 add address=10.0.0.2 mac-address=00:0C:29:7D:DB:D9 server=server1 to-address=\
     10.0.0.2 type=bypassed
+add address=10.0.0.152 mac-address=00:0C:29:67:4F:B3 server=server1 \
+    to-address=10.0.0.152 type=bypassed
 /ip hotspot user
 add name=admin password=aaspl@pdn321
 add name=admin2 password=apsdpnl
@@ -839,8 +841,8 @@ add comment=4220121021903 customer=admin disabled=no first-name=\
     password=123456 shared-users=1 username=40:8C:1F:11:F3:A1 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="Faisal Ali 61360" ipv6-dns=:: \
-    last-name=... location="feroze hub" password=123456 shared-users=1 \
-    username=FC:29:E3:32:93:EF wireless-enc-algo=none wireless-enc-key="" \
+    last-name=.... location="feroze hub" password=123456 shared-users=1 \
+    username=30:4F:00:A0:91:DD wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
 add comment=3130268171883 customer=admin disabled=yes first-name=\
     "M Ahmed 62931" ipv6-dns=:: location="Feroze hub" password=123456 \
@@ -1750,8 +1752,8 @@ add comment=3130174031771 customer=admin disabled=yes first-name=\
     shared-users=1 username=38:78:62:84:83:65 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3240337916589 customer=admin disabled=no first-name="Jalil 64044" \
-    ipv6-dns=:: last-name=... location="Feroz hub " password=123456 \
-    shared-users=1 username=84:89:AD:B4:9C:6B wireless-enc-algo=none \
+    ipv6-dns=:: last-name=.... location="Feroz hub " password=123456 \
+    shared-users=1 username=E8:C2:DD:00:18:63 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=143010231217 customer=admin disabled=no first-name=\
     "M.qasim 64133" ipv6-dns=:: last-name=. location="Feroz hub " password=\
@@ -1821,7 +1823,7 @@ add comment=3240375985055 customer=admin disabled=no first-name=\
     wireless-enc-key="" wireless-psk=""
 add comment=31301-56840419 customer=admin disabled=no first-name=\
     "M Talha 60689" ipv6-dns=:: location="feroze hub" password=123456 \
-    shared-users=1 username=2C:4D:DE:58:D1:7B wireless-enc-algo=none \
+    shared-users=1 username=54:67:06:C8:78:A9 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3120179473979 customer=admin disabled=no first-name=\
     "Mohammed Younis 61818" ipv6-dns=:: location="Feroz hub " password=123456 \
@@ -2185,10 +2187,6 @@ add comment=3130110884015 customer=admin disabled=no first-name=\
     "M ajaz 62537" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=9C:D9:17:49:51:06 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Faisal Ali 61360" ipv6-dns=:: \
-    last-name=. location="Feroz hub " password=123456 shared-users=1 \
-    username=30:4F:00:A0:91:DD wireless-enc-algo=none wireless-enc-key="" \
-    wireless-psk=""
 add comment=3130129522145 customer=admin disabled=no first-name=\
     "Allah Nawaz 62494" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=38:8A:BE:3E:EE:47 wireless-enc-algo=none \
@@ -2201,5 +2199,9 @@ add customer=admin disabled=no first-name="Khazar amian 64242" ipv6-dns=:: \
     9C:5F:5A:4D:5E:73 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
 add customer=admin disabled=no first-name="Abdullah 64017" ipv6-dns=:: \
-    password=123456 shared-users=1 username=E8:C2:DD:5D:3E:7B \
+    password=123456 shared-users=1 username=CC:A3:BD:CB:55:54 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
+add customer=admin disabled=no first-name="Faisal Ali 61360 " ipv6-dns=:: \
+    location="Feroz hub " password=123456 shared-users=1 username=\
+    72:85:5C:6A:F6:10 wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
