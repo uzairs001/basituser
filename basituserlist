@@ -1,4 +1,4 @@
-# aug/29/2022 12:26:26 by RouterOS 6.49.2
+# aug/31/2022 12:07:02 by RouterOS 6.49.2
 # software id = TI09-7WK3
 #
 #
@@ -29,7 +29,7 @@ add name=hs-pool-2 ranges=10.0.0.20-10.0.0.254
 add name=pppoe ranges=11.0.0.2-11.0.0.254
 /ip dhcp-server
 add add-arp=yes address-pool=hs-pool-2 always-broadcast=yes disabled=no \
-    interface=LAN lease-time=4h name=dhcp1
+    interface=LAN lease-time=2h name=dhcp1
 /ip hotspot
 add address-pool=hs-pool-2 addresses-per-mac=1 interface=LAN name=hotspot1 \
     profile=hsprof1
@@ -307,10 +307,6 @@ add customer=admin disabled=no first-name="Afaq Ahmed 51748" ipv6-dns=:: \
     wireless-psk=""
 add customer=admin disabled=no first-name="Sajid aspl" ipv6-dns=:: password=\
     123456 shared-users=1 username=60:A4:D0:67:BE:2E wireless-enc-algo=none \
-    wireless-enc-key="" wireless-psk=""
-add comment=.. customer=admin disabled=yes first-name="NAN  g 1888" ipv6-dns=\
-    :: last-name=. location="Feroze Hub" password=123456 phone=. \
-    shared-users=1 username=80:79:5D:46:95:B9 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=yes first-name="Danish mobile" ipv6-dns=:: \
     password=123456 shared-users=1 username=72:E7:80:EF:BA:9D \
@@ -1250,9 +1246,9 @@ add comment=3120112196677 customer=admin disabled=yes first-name=\
     "M Shan 63351" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=8C:34:01:F8:B6:E1 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3630156144997 customer=admin disabled=no first-name="M ishaq 555" \
-    ipv6-dns=:: last-name=.. location="Feroz hub " password=123456 \
-    shared-users=1 username=F0:67:28:CC:9F:B3 wireless-enc-algo=none \
+add comment=3630156144997 customer=admin disabled=no first-name=\
+    "M ishaq64352" ipv6-dns=:: last-name=.. location="Feroz hub " password=\
+    123456 shared-users=1 username=F0:67:28:CC:9F:B3 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3130282487961 customer=admin disabled=yes first-name=\
     "M saleem 62610" ipv6-dns=:: location="Feroz hub " password=123456 \
@@ -2176,7 +2172,7 @@ add customer=admin disabled=no first-name="danish PC" ipv6-dns=:: password=\
     123456 shared-users=1 username=78:2B:CB:93:58:7F wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3130258606075 customer=admin disabled=no first-name=\
-    "M Nadeem 1888" ipv6-dns=:: location="Feroz hub " password=123456 \
+    "M Nadeem 64355" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=D4:63:DE:F9:B8:C2 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3230168328325 customer=admin disabled=no first-name=\
