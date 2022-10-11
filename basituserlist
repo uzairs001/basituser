@@ -1,4 +1,4 @@
-# oct/05/2022 11:09:15 by RouterOS 6.49.2
+# oct/11/2022 14:57:27 by RouterOS 6.49.2
 # software id = TI09-7WK3
 #
 #
@@ -242,10 +242,10 @@ add comment=3130151216809 customer=admin disabled=no first-name=\
     "Shanawaz 60139" ipv6-dns=:: last-name=. location="Feroze Hub" password=\
     123456 shared-users=unlimited username=6C:1E:D7:B4:B5:B5 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=3.1202E+12 customer=admin disabled=no first-name="M.jawaid 53872" \
-    ipv6-dns=:: last-name=. location="Feroze Hub" password=123456 \
-    shared-users=unlimited username=18:D0:C5:AD:FB:87 wireless-enc-algo=none \
-    wireless-enc-key="" wireless-psk=""
+add comment=3.1202E+12 customer=admin disabled=yes first-name=\
+    "M.jawaid 53872" ipv6-dns=:: last-name=. location="Feroze Hub" password=\
+    123456 shared-users=unlimited username=18:D0:C5:AD:FB:87 \
+    wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="Shahbaz 63361" ipv6-dns=:: \
     location="Feroze Hub" password=123456 shared-users=unlimited username=\
     9C:5F:5A:25:2C:71 wireless-enc-algo=none wireless-enc-key="" \
@@ -290,7 +290,7 @@ add customer=admin disabled=no first-name="Frahan 60336" ipv6-dns=:: \
     location="Feroze Hub" password=123456 shared-users=unlimited username=\
     C4:E1:A1:27:F4:BD wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=8230307951135 customer=admin disabled=no first-name=\
+add comment=8230307951135 customer=admin disabled=yes first-name=\
     "M haron 58891" ipv6-dns=:: last-name=. location="Feroze Hub" password=\
     123456 shared-users=unlimited username=28:A5:3F:82:2A:60 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
@@ -312,7 +312,7 @@ add comment=3120155006465 customer=admin disabled=no first-name=\
     "Mustafa 63891" ipv6-dns=:: location="Feroze hub" password=123456 phone=. \
     shared-users=unlimited username=AC:2D:A9:3B:6C:EF wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=31205614213 customer=admin disabled=no first-name=\
+add comment=31205614213 customer=admin disabled=yes first-name=\
     "Ashiq hussain 61508" ipv6-dns=:: last-name=... location="Feroze hub" \
     password=123456 shared-users=unlimited username=04:F9:93:3D:23:3F \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
@@ -377,7 +377,7 @@ add comment=3120163949235 customer=admin disabled=no first-name=\
     password=123456 phone=" " shared-users=unlimited username=\
     40:D2:5F:EF:65:1F wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add customer=admin disabled=no first-name="Azam Hammam" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Azam Hammam" ipv6-dns=:: \
     last-name=. location="Feroze Hub" password=123456 shared-users=unlimited \
     username=04:F9:93:D2:C8:93 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -391,7 +391,7 @@ add customer=admin disabled=no first-name="Home tv" ipv6-dns=:: last-name=. \
     wireless-psk=""
 add customer=admin disabled=no first-name="Nisar Ali 61413" ipv6-dns=:: \
     last-name=... location="Feroze Hub" password=123456 shared-users=\
-    unlimited username=68:E7:C2:2A:B3:CB wireless-enc-algo=none \
+    unlimited username=08:B4:9D:A9:A2:71 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="Khurram loro" ipv6-dns=:: \
     location=Aspl password=123456 shared-users=unlimited username=\
@@ -409,7 +409,7 @@ add comment=4120330415855 customer=admin disabled=no first-name=\
     "Sadaqat Ali 59969" ipv6-dns=:: last-name=. location="Feroze Hub" \
     password=123456 shared-users=unlimited username=9C:82:81:5C:59:27 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=4130604807567 customer=admin disabled=no first-name=\
+add comment=4130604807567 customer=admin disabled=yes first-name=\
     "Shafe .m  59670" ipv6-dns=:: last-name=. location="Feroz hub" password=\
     123456 shared-users=unlimited username=38:94:96:3D:05:96 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
@@ -439,11 +439,11 @@ add comment=4520858457611 customer=admin disabled=no first-name=\
 add customer=admin disabled=no first-name="SIR MUMTAZ" ipv6-dns=:: password=\
     123456 shared-users=unlimited username=04:F1:28:6D:9A:7A \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=4220121021903 customer=admin disabled=no first-name=\
+add comment=4220121021903 customer=admin disabled=yes first-name=\
     "Abdul Hafeez 58906" ipv6-dns=:: last-name=... location="feroze hub" \
     password=123456 shared-users=unlimited username=40:8C:1F:11:F3:A1 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Faisal Ali 61360" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Faisal Ali 61360" ipv6-dns=:: \
     last-name=.... location="feroze hub" password=123456 shared-users=\
     unlimited username=30:4F:00:A0:91:DD wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -455,7 +455,7 @@ add customer=admin disabled=no first-name="Siraj Ahmad 62259" ipv6-dns=:: \
     location="Feroze Hub" password=123456 shared-users=unlimited username=\
     CC:3B:27:8E:FF:C7 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=4220192050501 customer=admin disabled=no first-name=\
+add comment=4220192050501 customer=admin disabled=yes first-name=\
     "Sajjad Ali 60938" ipv6-dns=:: last-name=. location="Feroze Hub" \
     password=123456 phone=. shared-users=unlimited username=D0:9C:AE:69:32:86 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
@@ -482,7 +482,7 @@ add customer=admin disabled=no first-name="azhar qayum1 40213" ipv6-dns=:: \
     location="Feroze hub" password=123456 shared-users=unlimited username=\
     08:ED:9D:19:E8:AE wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3630192850683 customer=admin disabled=no first-name=\
+add comment=3630192850683 customer=admin disabled=yes first-name=\
     "M.arshad 61377" ipv6-dns=:: location="Feroz hub" password=123456 \
     shared-users=unlimited username=0C:E0:DC:01:8C:32 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -502,17 +502,17 @@ add comment=3120129723935 customer=admin disabled=no first-name=\
     "M.ismail 60974" ipv6-dns=:: location="Feroz hub" password=123456 \
     shared-users=unlimited username=46:CE:44:13:4D:12 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=4320675826251 customer=admin disabled=no first-name=\
+add comment=4320675826251 customer=admin disabled=yes first-name=\
     "Zoheb Hussain 63485" ipv6-dns=:: last-name=. location="Feroz hub" \
     password=123456 shared-users=unlimited username=C4:BF:60:BC:D7:C3 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=4510268061955 customer=admin disabled=no first-name=\
+add comment=4510268061955 customer=admin disabled=yes first-name=\
     "M.baghn 63489" ipv6-dns=:: last-name=. location="Feroz hub" password=\
     123456 shared-users=unlimited username=F4:D6:20:19:93:EB \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=4520643525981 customer=admin disabled=no first-name=\
     "M sanwal 61895" ipv6-dns=:: last-name=. location="Feroz hub" password=\
-    123456 shared-users=unlimited username=08:7F:98:03:6C:5F \
+    123456 shared-users=unlimited username=EC:1F:72:10:4A:3F \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=3230287051109 customer=admin disabled=no first-name=\
     "M.balal 56023" ipv6-dns=:: location="Feroz hub" password=123456 \
@@ -547,11 +547,11 @@ add customer=admin disabled=no first-name="Yaseen 62316" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     28:A5:3F:7D:E5:2E wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3620374923725 customer=admin disabled=no first-name=\
+add comment=3620374923725 customer=admin disabled=yes first-name=\
     "Moeen Khan 63591" ipv6-dns=:: last-name=.. location="Feroz hub " \
     password=123456 shared-users=unlimited username=60:A3:7D:CD:C8:48 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=8230322914483 customer=admin disabled=no first-name=\
+add comment=8230322914483 customer=admin disabled=yes first-name=\
     "Saboor 61948" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=FC:29:E3:18:E5:E1 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -663,11 +663,11 @@ add comment=3410495290253 customer=admin disabled=no first-name=\
     "Azhar qaum 2(40213)" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=9C:82:81:26:CA:1B wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Mansoor Ali 63795" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Mansoor Ali 63795" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     74:EF:4B:F1:32:F3 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=8230349436507 customer=admin disabled=no first-name=\
+add comment=8230349436507 customer=admin disabled=yes first-name=\
     "Abdul Waheed 62802" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=38:38:4B:B8:9A:9E wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -679,19 +679,19 @@ add customer=admin disabled=no first-name="Home d tv" ipv6-dns=:: location=\
     "Feroz hub " password=123456 shared-users=unlimited username=\
     C8:3A:35:D1:52:09 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3130137924777 customer=admin disabled=no first-name=\
+add comment=3130137924777 customer=admin disabled=yes first-name=\
     "Dilawar Khan 62218" ipv6-dns=:: last-name=. location="Feroz hub " \
     password=123456 phone=. shared-users=unlimited username=D0:5A:FD:5E:4D:CB \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=4330194616929 customer=admin disabled=no first-name="Arbab 46801" \
-    ipv6-dns=:: location="Feroz hub " password=123456 shared-users=unlimited \
-    username=DC:A9:56:66:6C:2F wireless-enc-algo=none wireless-enc-key="" \
-    wireless-psk=""
+add comment=4330194616929 customer=admin disabled=yes first-name=\
+    "Arbab 46801" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=DC:A9:56:66:6C:2F wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
 add comment=3130398598649 customer=admin disabled=yes first-name=\
     "M.tariq 63744" ipv6-dns=:: last-name=... location="Feroz hub " password=\
     123456 shared-users=1 username=C0:47:54:29:F9:83 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130225645395 customer=admin disabled=no first-name=\
+add comment=3130225645395 customer=admin disabled=yes first-name=\
     "Jalal Hussain 64071" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=00:08:15:7D:30:8B wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -737,17 +737,17 @@ add comment=452082937895 customer=admin disabled=yes first-name="Nadir 61311" \
     wireless-psk=""
 add comment=4430215302915 customer=admin disabled=no first-name=\
     "Naseer 61414" ipv6-dns=:: last-name=. location="Feroz hub " password=\
-    123456 shared-users=unlimited username=28:A5:3F:9D:1B:1E \
+    123456 shared-users=unlimited username=18:89:CF:60:1E:55 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=3120159696747 customer=admin disabled=no first-name=\
     "M.jamil 62720" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=FC:29:E3:A5:80:E3 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=4120570741935 customer=admin disabled=no first-name=\
+add comment=4120570741935 customer=admin disabled=yes first-name=\
     "Ikhtiar Ali 63058" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=C4:BF:60:2B:28:F5 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130294082805 customer=admin disabled=no first-name=\
+add comment=3130294082805 customer=admin disabled=yes first-name=\
     "M.zahid 64039" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=9C:82:81:18:E1:B9 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -759,10 +759,10 @@ add comment=3130174031771 customer=admin disabled=yes first-name=\
     "M.moben 63547" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=38:78:62:84:83:65 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3240337916589 customer=admin disabled=no first-name="Jalil 64044" \
-    ipv6-dns=:: last-name=.... location="Feroz hub " password=123456 \
-    shared-users=unlimited username=E8:C2:DD:00:18:63 wireless-enc-algo=none \
-    wireless-enc-key="" wireless-psk=""
+add comment=3240337916589 customer=admin disabled=yes first-name=\
+    "Jalil 64044" ipv6-dns=:: last-name=.... location="Feroz hub " password=\
+    123456 shared-users=unlimited username=E8:C2:DD:00:18:63 \
+    wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=143010231217 customer=admin disabled=yes first-name=\
     "M.qasim 64133" ipv6-dns=:: last-name=. location="Feroz hub " password=\
     123456 shared-users=1 username=44:46:87:48:56:6B wireless-enc-algo=none \
@@ -771,7 +771,7 @@ add comment=4320634424149 customer=admin disabled=yes first-name=\
     "Waseem 63311" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=18:E7:77:A7:57:45 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=8230325909973 customer=admin disabled=no first-name=\
+add comment=8230325909973 customer=admin disabled=yes first-name=\
     "M ashfaq 60962" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=AC:29:29:3C:9C:7F wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -841,11 +841,11 @@ add comment=4120598309149 customer=admin disabled=yes first-name=\
     "Shahnawaz 63597" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=2C:4D:DE:69:18:5D wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=8230332236871 customer=admin disabled=no first-name=\
+add comment=8230332236871 customer=admin disabled=yes first-name=\
     "Tosif Ahmed 63177" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=18:89:CF:74:EC:05 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130172903789 customer=admin disabled=no first-name=\
+add comment=3130172903789 customer=admin disabled=yes first-name=\
     "M.majid 63447" ipv6-dns=:: last-name=. location="Feroz hub " password=\
     123456 shared-users=unlimited username=EC:1F:72:10:4A:3F \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
@@ -869,15 +869,15 @@ add comment=3120156017387 customer=admin disabled=yes first-name=\
     "M.dilshad 62124" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=74:C1:7D:3B:52:25 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130215727859 customer=admin disabled=no first-name=\
+add comment=3130215727859 customer=admin disabled=yes first-name=\
     "M.majid 64170" ipv6-dns=:: last-name=. location="Feroz hub " password=\
     123456 shared-users=1 username=F0:67:28:00:D0:03 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=4120544541181 customer=admin disabled=no first-name=\
+add comment=4120544541181 customer=admin disabled=yes first-name=\
     "Zameer Ali 63889" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=30:56:96:2B:70:57 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3630123494481 customer=admin disabled=no first-name=\
+add comment=3630123494481 customer=admin disabled=yes first-name=\
     "M yousaf 62792" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=18:E7:77:8E:88:D7 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -889,7 +889,7 @@ add comment=3230188776837 customer=admin disabled=no first-name=\
     "Ibrahim 2  63488" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=74:C1:7D:76:98:78 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3240357698329 customer=admin disabled=no first-name=\
+add comment=3240357698329 customer=admin disabled=yes first-name=\
     "Akmal nazeer 60578" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=4C:50:F1:F2:80:73 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -905,7 +905,7 @@ add comment=32403-2703133-7 customer=admin disabled=no first-name=\
     "M Arshad 62035" ipv6-dns=:: password=123456 phone=03371719435 \
     shared-users=unlimited username=28:A5:3F:94:AD:B8 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Rohail Khan 64178" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Rohail Khan 64178" ipv6-dns=:: \
     location="Feroze Hub" password=123456 shared-users=unlimited username=\
     54:0E:58:78:FA:2F wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -943,7 +943,7 @@ add comment=36201-09836409 customer=admin disabled=no first-name=\
     "Asif Rehman 57011" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=4C:50:F1:F4:D0:17 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=31201-24849507 customer=admin disabled=no first-name=\
+add comment=31201-24849507 customer=admin disabled=yes first-name=\
     "M Shafiq 62261" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=E8:3A:12:A7:A0:53 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -951,15 +951,15 @@ add comment=43203-21849541 customer=admin disabled=no first-name=\
     "Tariq Ahmed 63877" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=D0:9C:AE:67:6C:96 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3240325084971 customer=admin disabled=no first-name=\
+add comment=3240325084971 customer=admin disabled=yes first-name=\
     "M Ayaz 59616" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=54:67:06:FE:80:4D wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=34231047 customer=admin disabled=no first-name="M Saleem 63406" \
+add comment=34231047 customer=admin disabled=yes first-name="M Saleem 63406" \
     ipv6-dns=:: password=123456 shared-users=unlimited username=\
     08:B4:9D:A9:B4:E7 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3130199902635 customer=admin disabled=no first-name=\
+add comment=3130199902635 customer=admin disabled=yes first-name=\
     "Abu Bakr 61726" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=9C:82:81:19:59:AF wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -967,7 +967,7 @@ add comment=312157640402-5 customer=admin disabled=no first-name=\
     "bashir ahmed 63138" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=04:F9:93:01:6F:49 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=43206-7438590-5 customer=admin disabled=no first-name=\
+add comment=43206-7438590-5 customer=admin disabled=yes first-name=\
     "imran ali 63592" ipv6-dns=:: password=123456 shared-users=1 username=\
     58:7A:6A:43:10:A1 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -991,7 +991,7 @@ add comment=3120187761715 customer=admin disabled=no first-name=\
     "M.jameel 63081" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=9C:F5:31:49:64:DF wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130197162633 customer=admin disabled=no first-name=\
+add comment=3130197162633 customer=admin disabled=yes first-name=\
     "M Asif 63907" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=80:79:5D:5A:A5:1B wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -999,14 +999,14 @@ add customer=admin disabled=no first-name="M.adnan 61037" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     00:08:A5:0B:A9:B9 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3230259850065 customer=admin disabled=no first-name=\
+add comment=3230259850065 customer=admin disabled=yes first-name=\
     "M.fayaz 59655" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=D0:9C:AE:6C:4B:A6 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3230478385565 customer=admin disabled=no first-name="Sadiq 60104" \
-    ipv6-dns=:: location="Feroz hub " password=123456 shared-users=unlimited \
-    username=B0:B5:C3:4F:AC:E9 wireless-enc-algo=none wireless-enc-key="" \
-    wireless-psk=""
+add comment=3230478385565 customer=admin disabled=yes first-name=\
+    "Sadiq 60104" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=B0:B5:C3:4F:AC:E9 wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
 add comment=3120220738687 customer=admin disabled=yes first-name=\
     "M dildar 63336" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=8C:25:05:FC:D4:4C wireless-enc-algo=none \
@@ -1015,7 +1015,7 @@ add comment=3120141522971 customer=admin disabled=yes first-name=\
     "Azizur Rahman 64246" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=04:F9:93:AA:A2:3D wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=410369931611 customer=admin disabled=no first-name=\
+add comment=410369931611 customer=admin disabled=yes first-name=\
     "Liaquat Ali 62328" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=90:56:FC:CD:C4:18 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1027,7 +1027,7 @@ add comment=41205-3493666-1 customer=admin disabled=no first-name=\
     "saddam hussain 56397" ipv6-dns=:: password=123456 shared-users=1 \
     username=08:B4:9D:27:0B:AF wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add customer=admin disabled=no first-name="Mujahid 61460" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Mujahid 61460" ipv6-dns=:: \
     last-name=. location="Feroz hub " password=123456 shared-users=unlimited \
     username=28:A5:3F:9D:1B:68 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1066,11 +1066,11 @@ add comment=31201-13042999 customer=admin disabled=no first-name=\
     "Khalid 64300" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=9C:5F:5A:13:C8:9B wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=31201-79794261 customer=admin disabled=no first-name=\
+add comment=31201-79794261 customer=admin disabled=yes first-name=\
     "M Azam 63084" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=D8:A3:15:9B:9B:3D wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3120150250675 customer=admin disabled=no first-name=\
+add comment=3120150250675 customer=admin disabled=yes first-name=\
     "M.abid  64113" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=D0:9C:AE:5D:A6:A6 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1082,7 +1082,7 @@ add comment=3240397282753 customer=admin disabled=no first-name=\
     "M.rizwan 58509" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=AC:2D:A9:C5:AF:EA wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=45402-17358895 customer=admin disabled=no first-name=\
+add comment=45402-17358895 customer=admin disabled=yes first-name=\
     "Ghulam Qadir 58202" ipv6-dns=:: password=123456 phone=58202 \
     shared-users=unlimited username=A0:4C:5B:29:58:6C wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1090,7 +1090,7 @@ add comment=4120576483455 customer=admin disabled=yes first-name=\
     "Imran 63335" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=1 username=18:89:CF:73:37:8D wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3740530917759 customer=admin disabled=no first-name=\
+add comment=3740530917759 customer=admin disabled=yes first-name=\
     "Akmal Hussain 63318" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=28:A5:3F:91:79:4C wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1106,7 +1106,7 @@ add comment=8230382715289 customer=admin disabled=no first-name=\
     "Juniad Mushtaq 63453" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=A4:F0:5E:D6:CB:85 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3110581035451 customer=admin disabled=no first-name=\
+add comment=3110581035451 customer=admin disabled=yes first-name=\
     "Dildar 62336" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=30:4F:00:C6:8B:63 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1114,7 +1114,7 @@ add comment=3120257889887 customer=admin disabled=no first-name=\
     "M.shahbaz 64271" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=BC:91:B5:76:B7:8E wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="Hafeez 2  58906" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Hafeez 2  58906" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     20:31:1C:F7:A7:7D wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1122,7 +1122,7 @@ add comment=8230365689707 customer=admin disabled=no first-name=\
     "Zeshan afsar 64130" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=88:03:E9:76:C6:59 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=4510280668697 customer=admin disabled=no first-name=\
+add comment=4510280668697 customer=admin disabled=yes first-name=\
     "M.shareef 62694" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=40:8C:1F:11:EF:9F wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1166,7 +1166,7 @@ add customer=admin disabled=no first-name="danish PC" ipv6-dns=:: password=\
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add comment=3130258606075 customer=admin disabled=no first-name=\
     "M Nadeem 64355" ipv6-dns=:: location="Feroz hub " password=123456 \
-    shared-users=unlimited username=D4:63:DE:F9:B8:C2 wireless-enc-algo=none \
+    shared-users=unlimited username=00:08:74:D8:D4:2E wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=3230168328325 customer=admin disabled=no first-name=\
     "M Imran 64268" ipv6-dns=:: location="Feroz hub " password=123456 \
@@ -1187,14 +1187,14 @@ add customer=admin disabled=yes first-name="Khazar amian 64242" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     9C:5F:5A:4D:5E:73 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add customer=admin disabled=no first-name="Abdullah 64017" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Abdullah 64017" ipv6-dns=:: \
     password=123456 shared-users=unlimited username=CC:A3:BD:CB:55:54 \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="Faisal Ali 61360 " ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     72:85:5C:6A:F6:10 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add customer=admin disabled=no first-name="Nisar Ali 63130" ipv6-dns=:: \
+add customer=admin disabled=yes first-name="Nisar Ali 63130" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=unlimited username=\
     28:A5:3F:8E:26:F6 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1230,11 +1230,11 @@ add comment=32403-19475491 customer=admin disabled=no first-name=\
     "m junaid--63847" ipv6-dns=:: location="feroz hub" password=123456 \
     shared-users=unlimited username=9C:82:81:44:7C:8F wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3130220173469 customer=admin disabled=no first-name=\
+add comment=3130220173469 customer=admin disabled=yes first-name=\
     "M Azhar 64319" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=AC:29:29:5A:A4:B1 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=434034851285 customer=admin disabled=no first-name=\
+add comment=434034851285 customer=admin disabled=yes first-name=\
     "M.rashid 64176" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=7C:1C:68:A0:15:50 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1242,14 +1242,14 @@ add comment=4510212831247 customer=admin disabled=no first-name=\
     "M jawed 63563" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=6C:43:3C:A3:BB:C9 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=4120568170413 customer=admin disabled=no first-name=\
+add comment=4120568170413 customer=admin disabled=yes first-name=\
     "Rabrakhyo 62761" ipv6-dns=:: location="Feroz hub " password=123456 \
     shared-users=unlimited username=80:79:5D:FF:A8:15 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="usb-to-lan adapter" ipv6-dns=:: \
     password=123456 shared-users=unlimited username=00:E0:4C:36:02:4F \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=31201-5728659-3 customer=admin disabled=no first-name=\
+add comment=31201-5728659-3 customer=admin disabled=yes first-name=\
     "Saif ur rehman 63188" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=D0:9C:AE:66:90:F0 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1257,7 +1257,7 @@ add comment=31202-06225703 customer=admin disabled=no first-name=\
     "Nazakat Ali 63631" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=C4:BF:60:4A:B1:07 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=442096148895 customer=admin disabled=no first-name=\
+add comment=442096148895 customer=admin disabled=yes first-name=\
     "Gul hassan 59860" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=6C:1E:D7:A8:01:FF wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1268,10 +1268,6 @@ add comment=3240325344269 customer=admin disabled=no first-name=\
 add comment=3130174173081 customer=admin disabled=no first-name=\
     "M zahid 60093" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=24:06:AA:F4:18:71 wireless-enc-algo=none wireless-enc-key="" \
-    wireless-psk=""
-add comment=3240373881365 customer=admin disabled=no first-name=\
-    "M.adeel 62897" ipv6-dns=:: password=123456 shared-users=unlimited \
-    username=00:25:64:38:B1:5E wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
 add comment=3120183561077 customer=admin disabled=no first-name=\
     "M kashif 62034" ipv6-dns=:: password=123456 shared-users=unlimited \
@@ -1288,10 +1284,6 @@ add comment=312056678431 customer=admin disabled=no first-name=\
 add customer=admin disabled=no first-name=Ghani ipv6-dns=:: password=123456 \
     shared-users=unlimited username=D8:47:32:9F:BB:F7 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
-add comment=3240373881365 customer=admin disabled=no first-name=\
-    "M.Adeel 62897" ipv6-dns=:: password=123456 shared-users=unlimited \
-    username=AC:C4:BD:8E:63:D3 wireless-enc-algo=none wireless-enc-key="" \
-    wireless-psk=""
 add comment=3240376343127 customer=admin disabled=no first-name=\
     "M taki 62621" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=28:A5:3F:95:44:6A wireless-enc-algo=none wireless-enc-key="" \
@@ -1308,7 +1300,7 @@ add comment=43407-05023421 customer=admin disabled=no first-name=\
     "M Shoaib 63785" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=70:DD:A8:9F:61:1A wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3120198331185 customer=admin disabled=no first-name=\
+add comment=3120198331185 customer=admin disabled=yes first-name=\
     "M Arif 64262" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=9C:82:81:1D:39:AB wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1332,11 +1324,11 @@ add comment=45303-22565727 customer=admin disabled=no first-name=\
     "Zakir Hussain 60947" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=C4:40:F6:06:A4:8D wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=4420275084849 customer=admin disabled=no first-name=\
+add comment=4420275084849 customer=admin disabled=yes first-name=\
     "Mumtaz Ali 62538" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=A8:98:92:56:40:ED wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3130470775575 customer=admin disabled=no first-name=\
+add comment=3130470775575 customer=admin disabled=yes first-name=\
     "Ali Hamza 63989" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=28:A5:3F:8B:B9:BC wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1347,7 +1339,7 @@ add comment=3130268171883 customer=admin disabled=no first-name=\
     "M.Amad 62931" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=2C:4D:DE:61:0B:6F wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=3120371826491 customer=admin disabled=no first-name=\
+add comment=3120371826491 customer=admin disabled=yes first-name=\
     "M Atif 64018" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=AC:23:34:74:59:63 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1367,7 +1359,7 @@ add comment=3120136562885 customer=admin disabled=no first-name=\
     "Ansar m 63168" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=30:56:96:AC:C9:A9 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=433094616929 customer=admin disabled=no first-name=\
+add comment=433094616929 customer=admin disabled=yes first-name=\
     "Arbab Ali 2 46801" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=90:67:1C:AA:D4:59 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
@@ -1377,16 +1369,17 @@ add comment=3120199749021 customer=admin disabled=no first-name=\
     wireless-enc-key="" wireless-psk=""
 add comment=3120176302249 customer=admin disabled=no first-name=\
     "M sajad 60472" ipv6-dns=:: password=123456 shared-users=unlimited \
-    username=D0:9C:AE:77:03:7E wireless-enc-algo=none wireless-enc-key="" \
+    username=A8:98:92:FC:B1:03 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add customer=admin disabled=no first-name="Nasir 61414" ipv6-dns=:: password=\
-    123456 shared-users=unlimited username=AC:23:34:C2:E1:85 \
-    wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add comment=82230320538861 customer=admin disabled=no first-name=\
+add customer=admin disabled=yes first-name="Nasir 61414" ipv6-dns=:: \
+    location="Feroz hub " password=123456 shared-users=unlimited username=\
+    AC:23:34:C2:E1:85 wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add comment=82230320538861 customer=admin disabled=yes first-name=\
     "M Faheem 64146" ipv6-dns=:: password=123456 shared-users=unlimited \
     username=AC:29:29:6F:08:6F wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
-add comment=32201-5041568-9 customer=admin disabled=no first-name=\
+add comment=32201-5041568-9 customer=admin disabled=yes first-name=\
     "Sajid Rasool 60825" ipv6-dns=:: location="Feroze hub" password=123456 \
     shared-users=unlimited username=00:87:01:5D:83:4D wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
@@ -1438,7 +1431,7 @@ add comment=3630183162549 customer=admin disabled=no first-name=\
 add customer=admin disabled=no first-name="boss 12345" ipv6-dns=:: password=\
     123456 shared-users=unlimited username=4C:50:F1:B6:4D:4D \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
-add customer=admin disabled=no first-name="M.noman 60361" ipv6-dns=:: \
+add customer=admin disabled=no first-name="M.noman (2) 60361" ipv6-dns=:: \
     password=123456 shared-users=unlimited username=38:38:4B:B9:2D:9C \
     wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
 add customer=admin disabled=no first-name="Mazher Hussain 64010" ipv6-dns=:: \
@@ -1467,7 +1460,7 @@ add comment=4320619726303 customer=admin disabled=no first-name=\
     wireless-enc-key="" wireless-psk=""
 add comment=3130163384415 customer=admin disabled=no first-name=\
     "M.naveed 60067" ipv6-dns=:: location="Feroz hub " password=123456 \
-    shared-users=unlimited username=80:25:11:23:4D:56 wireless-enc-algo=none \
+    shared-users=unlimited username=D4:50:3F:85:5C:71 wireless-enc-algo=none \
     wireless-enc-key="" wireless-psk=""
 add comment=4320680361625 customer=admin disabled=no first-name=\
     "M shahweb 63551" ipv6-dns=:: location="Feroz hub " password=123456 \
@@ -1577,3 +1570,66 @@ add customer=admin disabled=no first-name="M Farooq 63096" ipv6-dns=:: \
     location="Feroz hub " password=123456 shared-users=1 username=\
     C0:2E:25:57:F2:F9 wireless-enc-algo=none wireless-enc-key="" \
     wireless-psk=""
+add comment=4120314343111 customer=admin disabled=no first-name=\
+    "Dani bkhash 63717" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=BC:3E:CB:CE:D6:19 wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3120196058489 customer=admin disabled=no first-name="Imran 63281" \
+    ipv6-dns=:: location="Feroz hub " password=123456 shared-users=unlimited \
+    username=08:B3:AF:FF:0C:87 wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add comment=3130276679073 customer=admin disabled=no first-name=\
+    "Umar Farooq 59399" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=9C:82:81:03:EB:5B wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3130113120327 customer=admin disabled=no first-name=\
+    "M ishaq 64259" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=08:B4:9D:A9:B4:E7 wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3420207146837 customer=admin disabled=no first-name=\
+    "Sabir husan 63590" ipv6-dns=:: password=123456 shared-users=unlimited \
+    username=D4:67:D3:C6:25:EB wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add comment=3130391389681 customer=admin disabled=no first-name=\
+    "Nadeem 63674" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=38:38:4B:C3:60:FE wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3130225645395 customer=admin disabled=no first-name=\
+    "M jalal 64071" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=00:08:15:7D:30:8B wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3130322900975 customer=admin disabled=no first-name=\
+    "Musheer Ahmad 62560" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=2C:4D:DE:68:BB:77 wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=3120142906315 customer=admin disabled=no first-name=\
+    "sameer 64485" ipv6-dns=:: password=123456 shared-users=unlimited \
+    username=44:04:44:59:0D:9C wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add comment=8210248909745 customer=admin disabled=no first-name=\
+    "Natash 62846" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=AC:29:29:22:C8:4D wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=4320135448129 customer=admin disabled=no first-name=\
+    "Shmeer Ali 62904" ipv6-dns=:: password=123456 shared-users=unlimited \
+    username=30:E7:BC:45:BB:39 wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add comment=3120182659025 customer=admin disabled=no first-name=\
+    "Rashid hasmi 64437" ipv6-dns=:: password=123456 shared-users=unlimited \
+    username=F4:63:1F:90:71:47 wireless-enc-algo=none wireless-enc-key="" \
+    wireless-psk=""
+add customer=admin disabled=no first-name="m.adeel 62897" ipv6-dns=:: \
+    password=123456 shared-users=unlimited username=00:25:64:38:B1:5E \
+    wireless-enc-algo=none wireless-enc-key="" wireless-psk=""
+add comment=4120544541181 customer=admin disabled=no first-name=\
+    "Zameer 63889" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=FC:29:E3:72:BE:A7 wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=8230322911443 customer=admin disabled=no first-name=\
+    "Abdul saboor 61948" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=C4:64:F2:88:D4:EF wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
+add comment=4120531223199 customer=admin disabled=no first-name=\
+    "Sageer 60500" ipv6-dns=:: location="Feroz hub " password=123456 \
+    shared-users=unlimited username=18:89:CF:82:4A:6D wireless-enc-algo=none \
+    wireless-enc-key="" wireless-psk=""
